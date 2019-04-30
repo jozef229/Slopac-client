@@ -1,0 +1,435 @@
+
+/* Class = "UILabel"; text = "Nazov"; ObjectID = "0Wt-26-hky"; */
+"0Wt-26-hky.text" = "Nazov";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "1DV-8g-hI3"; */
+"1DV-8g-hI3.title" = "Item";
+
+/* Class = "UILabel"; text = "Autor"; ObjectID = "1ka-Ro-EGz"; */
+"1ka-Ro-EGz.text" = "Autor";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "207-v4-1hd"; */
+"207-v4-1hd.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "21L-bS-QzN"; */
+"21L-bS-QzN.text" = "Label";
+
+/* Class = "UILabel"; text = "language"; ObjectID = "2AE-c4-FYG"; */
+"2AE-c4-FYG.text" = "language";
+
+/* Class = "UILabel"; text = "Informácie"; ObjectID = "2lu-pO-SEk"; */
+"2lu-pO-SEk.text" = "Informácie";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "3AP-Fm-8K1"; */
+"3AP-Fm-8K1.title" = "Item";
+
+/* Class = "UIBarButtonItem"; title = "Share"; ObjectID = "3Af-vR-cpn"; */
+"3Af-vR-cpn.title" = "Share";
+
+/* Class = "UILabel"; text = "year"; ObjectID = "3Mp-ez-BCJ"; */
+"3Mp-ez-BCJ.text" = "year";
+
+/* Class = "UILabel"; text = "publisher"; ObjectID = "3N9-OL-QmC"; */
+"3N9-OL-QmC.text" = "publisher";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3a2-PV-4hS"; */
+"3a2-PV-4hS.text" = "Label";
+
+/* Class = "UILabel"; text = "Priezvisko"; ObjectID = "3aF-ce-QyY"; */
+"3aF-ce-QyY.text" = "Priezvisko";
+
+/* Class = "UILabel"; text = "jazyk"; ObjectID = "3y4-Yd-YVp"; */
+"3y4-Yd-YVp.text" = "jazyk";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "4Br-yb-Kyh"; */
+"4Br-yb-Kyh.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Registrácia"; ObjectID = "4U2-ba-ZGF"; */
+"4U2-ba-ZGF.normalTitle" = "Registrácia";
+
+/* Class = "UILabel"; text = "Jazyk:"; ObjectID = "50M-Pj-4rf"; */
+"50M-Pj-4rf.text" = "Jazyk:";
+
+/* Class = "UITextField"; placeholder = "Vlož časť názvu"; ObjectID = "5Z0-fw-enL"; */
+"5Z0-fw-enL.placeholder" = "Vlož časť názvu";
+
+/* Class = "UILabel"; text = "Autor"; ObjectID = "5j4-0X-NNc"; */
+"5j4-0X-NNc.text" = "Autor";
+
+/* Class = "UILabel"; text = "isbn"; ObjectID = "5zS-hp-XT5"; */
+"5zS-hp-XT5.text" = "isbn";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "649-Bk-U5c"; */
+"649-Bk-U5c.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6Cs-BN-xdT"; */
+"6Cs-BN-xdT.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6M3-mZ-iFV"; */
+"6M3-mZ-iFV.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "73L-zI-h7c"; */
+"73L-zI-h7c.text" = "Label";
+
+/* Class = "UILabel"; text = "Meno"; ObjectID = "87O-6x-EAA"; */
+"87O-6x-EAA.text" = "Meno";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8Dt-Q0-5TI"; */
+"8Dt-Q0-5TI.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8n1-u2-AWx"; */
+"8n1-u2-AWx.text" = "Label";
+
+/* Class = "UILabel"; text = "Nazov"; ObjectID = "8pk-eJ-P1Q"; */
+"8pk-eJ-P1Q.text" = "Nazov";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8rm-Jd-2HI"; */
+"8rm-Jd-2HI.text" = "Label";
+
+/* Class = "UILabel"; text = "Hodnotenie"; ObjectID = "93P-tI-skZ"; */
+"93P-tI-skZ.text" = "Hodnotenie";
+
+/* Class = "UITabBarItem"; title = "Obľúbené"; ObjectID = "99N-KG-qVm"; */
+"99N-KG-qVm.title" = "Obľúbené";
+
+/* Class = "UILabel"; text = "author"; ObjectID = "9J6-E8-GZb"; */
+"9J6-E8-GZb.text" = "author";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9ci-fB-Ziy"; */
+"9ci-fB-Ziy.text" = "Label";
+
+/* Class = "UILabel"; text = "Informácie"; ObjectID = "A0E-gg-dxQ"; */
+"A0E-gg-dxQ.text" = "Informácie";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "C6c-OQ-1gJ"; */
+"C6c-OQ-1gJ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "C8v-he-3fE"; */
+"C8v-he-3fE.text" = "Label";
+
+/* Class = "UILabel"; text = "Rok"; ObjectID = "CFp-7m-gGo"; */
+"CFp-7m-gGo.text" = "Rok";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "CyD-K4-vdi"; */
+"CyD-K4-vdi.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "D8G-SD-0oE"; */
+"D8G-SD-0oE.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DB7-1p-Wwf"; */
+"DB7-1p-Wwf.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "DI7-Xc-lns"; */
+"DI7-Xc-lns.title" = "Item";
+
+/* Class = "UILabel"; text = "ISBN"; ObjectID = "DSC-rz-PY3"; */
+"DSC-rz-PY3.text" = "ISBN";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Em8-Go-4Nu"; */
+"Em8-Go-4Nu.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Preukazy"; ObjectID = "FRw-n3-dbP"; */
+"FRw-n3-dbP.title" = "Preukazy";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "Fy3-oi-rTL"; */
+"Fy3-oi-rTL.title" = "Title";
+
+/* Class = "UILabel"; text = "Autor"; ObjectID = "GHv-ZZ-DHr"; */
+"GHv-ZZ-DHr.text" = "Autor";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "GMS-fi-hIl"; */
+"GMS-fi-hIl.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Účet"; ObjectID = "GMU-P0-iBL"; */
+"GMU-P0-iBL.title" = "Účet";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GSU-uL-AB0"; */
+"GSU-uL-AB0.text" = "Label";
+
+/* Class = "UILabel"; text = "rok"; ObjectID = "Hdm-re-94H"; */
+"Hdm-re-94H.text" = "rok";
+
+/* Class = "UILabel"; text = "edition"; ObjectID = "JlR-51-vHH"; */
+"JlR-51-vHH.text" = "edition";
+
+/* Class = "UILabel"; text = "Priezvisko"; ObjectID = "KJU-DX-8v3"; */
+"KJU-DX-8v3.text" = "Priezvisko";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LEA-sa-2gW"; */
+"LEA-sa-2gW.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "Mih-rH-39M"; */
+"Mih-rH-39M.title" = "Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Mvf-mY-dMV"; */
+"Mvf-mY-dMV.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Myh-YH-k8B"; */
+"Myh-YH-k8B.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "N46-hG-5cS"; */
+"N46-hG-5cS.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "N7Q-wS-VKx"; */
+"N7Q-wS-VKx.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NQU-fR-1St"; */
+"NQU-fR-1St.text" = "Label";
+
+/* Class = "UILabel"; text = "Heslo"; ObjectID = "NSA-VI-HTg"; */
+"NSA-VI-HTg.text" = "Heslo";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NxC-iC-pbu"; */
+"NxC-iC-pbu.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "O6r-rO-gjG"; */
+"O6r-rO-gjG.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Prihlásenie"; ObjectID = "OGh-xe-NnH"; */
+"OGh-xe-NnH.normalTitle" = "Prihlásenie";
+
+/* Class = "UILabel"; text = "note"; ObjectID = "Psc-Kb-jAT"; */
+"Psc-Kb-jAT.text" = "note";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QOI-VD-6rk"; */
+"QOI-VD-6rk.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "R5w-F3-5zo"; */
+"R5w-F3-5zo.text" = "Label";
+
+/* Class = "UILabel"; text = "Meno"; ObjectID = "RC3-hU-lGo"; */
+"RC3-hU-lGo.text" = "Meno";
+
+/* Class = "UILabel"; text = "Nazov kniznice"; ObjectID = "RFH-IJ-dno"; */
+"RFH-IJ-dno.text" = "Nazov kniznice";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RG5-cn-uEG"; */
+"RG5-cn-uEG.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "RfF-Q5-AHB"; */
+"RfF-Q5-AHB.title" = "Title";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TMg-E9-laa"; */
+"TMg-E9-laa.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "TVe-31-7Rb"; */
+"TVe-31-7Rb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ulg-cB-RkN"; */
+"Ulg-cB-RkN.text" = "Label";
+
+/* Class = "UILabel"; text = "Autor:"; ObjectID = "VWu-jv-cqY"; */
+"VWu-jv-cqY.text" = "Autor:";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "XQC-S6-8NA"; */
+"XQC-S6-8NA.text" = "title";
+
+/* Class = "UISegmentedControl"; YYR-Cf-dSh.segmentTitles[0] = "First"; ObjectID = "YYR-Cf-dSh"; */
+"YYR-Cf-dSh.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; YYR-Cf-dSh.segmentTitles[1] = "Second"; ObjectID = "YYR-Cf-dSh"; */
+"YYR-Cf-dSh.segmentTitles[1]" = "Second";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Yya-pO-ncf"; */
+"Yya-pO-ncf.text" = "Label";
+
+/* Class = "UILabel"; text = "publisher"; ObjectID = "ZDm-JP-LXP"; */
+"ZDm-JP-LXP.text" = "publisher";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZWf-AT-Qgi"; */
+"ZWf-AT-Qgi.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZXJ-QB-tbf"; */
+"ZXJ-QB-tbf.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Vlož meno autora"; ObjectID = "Zlk-Ha-NMm"; */
+"Zlk-Ha-NMm.placeholder" = "Vlož meno autora";
+
+/* Class = "UILabel"; text = "edition"; ObjectID = "Ztb-R2-zB1"; */
+"Ztb-R2-zB1.text" = "edition";
+
+/* Class = "UILabel"; text = "ISBN:"; ObjectID = "ack-Ek-4cX"; */
+"ack-Ek-4cX.text" = "ISBN:";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "afQ-xl-Hr3"; */
+"afQ-xl-Hr3.title" = "Title";
+
+/* Class = "UILabel"; text = "notes"; ObjectID = "ajc-e4-QNx"; */
+"ajc-e4-QNx.text" = "notes";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "ba1-O1-1E0"; */
+"ba1-O1-1E0.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Dostupnost"; ObjectID = "bhn-LH-gSd"; */
+"bhn-LH-gSd.normalTitle" = "Dostupnost";
+
+/* Class = "UITabBarItem"; title = "Hľadať"; ObjectID = "bo2-by-ZaH"; */
+"bo2-by-ZaH.title" = "Hľadať";
+
+/* Class = "UILabel"; text = "Kod preukazu"; ObjectID = "cg0-bd-pLS"; */
+"cg0-bd-pLS.text" = "Kod preukazu";
+
+/* Class = "UILabel"; text = "Názov:"; ObjectID = "gGO-AR-Gji"; */
+"gGO-AR-Gji.text" = "Názov:";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gJk-kb-ylS"; */
+"gJk-kb-ylS.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Meno"; ObjectID = "gVY-tk-I2d"; */
+"gVY-tk-I2d.text" = "Meno";
+
+/* Class = "UILabel"; text = "publication place"; ObjectID = "gVf-mn-kCc"; */
+"gVf-mn-kCc.text" = "publication place";
+
+/* Class = "UILabel"; text = "Meno"; ObjectID = "gYb-ho-PoQ"; */
+"gYb-ho-PoQ.text" = "Meno";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gjO-cS-4Fa"; */
+"gjO-cS-4Fa.text" = "Label";
+
+/* Class = "UILabel"; text = "name preukazu"; ObjectID = "gkv-WP-teE"; */
+"gkv-WP-teE.text" = "name preukazu";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hae-Vb-eZo"; */
+"hae-Vb-eZo.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Meno"; ObjectID = "i2y-qt-dI9"; */
+"i2y-qt-dI9.text" = "Meno";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "i7E-Pl-ayN"; */
+"i7E-Pl-ayN.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Ak sa kniznica nenachadza"; ObjectID = "iOD-Co-wDd"; */
+"iOD-Co-wDd.text" = "Ak sa kniznica nenachadza";
+
+/* Class = "UIButton"; normalTitle = "Odhlasiť sa"; ObjectID = "iq8-Iq-maO"; */
+"iq8-Iq-maO.normalTitle" = "Odhlasiť sa";
+
+/* Class = "UILabel"; text = "Informácie"; ObjectID = "jGP-zh-eCu"; */
+"jGP-zh-eCu.text" = "Informácie";
+
+/* Class = "UILabel"; text = "lib name"; ObjectID = "jdA-bh-oAa"; */
+"jdA-bh-oAa.text" = "lib name";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jr3-gM-hsq"; */
+"jr3-gM-hsq.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "juc-Bk-pjO"; */
+"juc-Bk-pjO.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Čiarový kód"; ObjectID = "kQy-Gf-VuZ"; */
+"kQy-Gf-VuZ.title" = "Čiarový kód";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "lkm-fI-8bD"; */
+"lkm-fI-8bD.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lrB-SA-gKn"; */
+"lrB-SA-gKn.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Registruj"; ObjectID = "mXr-Nx-edy"; */
+"mXr-Nx-edy.normalTitle" = "Registruj";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nb4-iv-pPs"; */
+"nb4-iv-pPs.normalTitle" = "Button";
+
+/* Class = "UITextView"; text = "tetview"; ObjectID = "nsm-qu-zSp"; */
+"nsm-qu-zSp.text" = "tetview";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oVK-RO-XYp"; */
+"oVK-RO-XYp.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oYL-O0-e7A"; */
+"oYL-O0-e7A.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pgj-et-Msd"; */
+"pgj-et-Msd.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pnE-DN-C3q"; */
+"pnE-DN-C3q.text" = "Label";
+
+/* Class = "UILabel"; text = "edition"; ObjectID = "q2k-8w-rVb"; */
+"q2k-8w-rVb.text" = "edition";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "q58-fX-4fL"; */
+"q58-fX-4fL.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qJS-Gm-uQb"; */
+"qJS-Gm-uQb.text" = "Label";
+
+/* Class = "UILabel"; text = "publication place"; ObjectID = "qQX-vT-AFY"; */
+"qQX-vT-AFY.text" = "publication place";
+
+/* Class = "UILabel"; text = "publisher"; ObjectID = "qWX-f0-GIC"; */
+"qWX-f0-GIC.text" = "publisher";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qit-Ae-x6N"; */
+"qit-Ae-x6N.text" = "Label";
+
+/* Class = "UILabel"; text = "Preukaz"; ObjectID = "qnk-og-c52"; */
+"qnk-og-c52.text" = "Preukaz";
+
+/* Class = "UILabel"; text = "Meno"; ObjectID = "rT5-m3-ZRW"; */
+"rT5-m3-ZRW.text" = "Meno";
+
+/* Class = "UILabel"; text = "Názov"; ObjectID = "rr3-On-Ani"; */
+"rr3-On-Ani.text" = "Názov";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "sih-Ld-6Pp"; */
+"sih-Ld-6Pp.text" = "0";
+
+/* Class = "UINavigationItem"; title = "Vyhľadávanie"; ObjectID = "tBF-Hk-XJl"; */
+"tBF-Hk-XJl.title" = "Vyhľadávanie";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tJ2-CU-RCu"; */
+"tJ2-CU-RCu.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "te5-jj-d8Q"; */
+"te5-jj-d8Q.title" = "Title";
+
+/* Class = "UITextField"; placeholder = "Zasaj alebo naskenuj ISBN"; ObjectID = "uCf-HI-Lmq"; */
+"uCf-HI-Lmq.placeholder" = "Zasaj alebo naskenuj ISBN";
+
+/* Class = "UILabel"; text = "rating"; ObjectID = "uqR-97-bvq"; */
+"uqR-97-bvq.text" = "rating";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vCW-uJ-pLH"; */
+"vCW-uJ-pLH.text" = "Label";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "vGa-kC-Nta"; */
+"vGa-kC-Nta.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vp3-co-UII"; */
+"vp3-co-UII.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wct-BA-h9s"; */
+"wct-BA-h9s.text" = "Label";
+
+/* Class = "UITextView"; text = "text"; ObjectID = "xOx-oR-qXf"; */
+"xOx-oR-qXf.text" = "text";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xV4-qc-cHY"; */
+"xV4-qc-cHY.text" = "Label";
+
+/* Class = "UILabel"; text = "publication"; ObjectID = "xmy-up-I38"; */
+"xmy-up-I38.text" = "publication";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xsw-pd-osa"; */
+"xsw-pd-osa.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "y5r-9h-KGp"; */
+"y5r-9h-KGp.title" = "Title";
+
+/* Class = "UILabel"; text = "ISBN"; ObjectID = "yJj-4v-RCp"; */
+"yJj-4v-RCp.text" = "ISBN";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yg3-bf-GvU"; */
+"yg3-bf-GvU.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ywk-oJ-dTh"; */
+"ywk-oJ-dTh.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Vyhľadaj knihy"; ObjectID = "zHq-li-Yxg"; */
+"zHq-li-Yxg.normalTitle" = "Vyhľadaj knihy";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "zm2-q1-5qc"; */
+"zm2-q1-5qc.text" = "Email";

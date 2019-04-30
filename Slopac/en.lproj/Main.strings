@@ -1,0 +1,222 @@
+
+/* Class = "UILabel"; text = "nazov"; ObjectID = "0Qx-r9-Vya"; */
+"0Qx-r9-Vya.text" = "nazov";
+
+/* Class = "UILabel"; text = "Nazov"; ObjectID = "0Wt-26-hky"; */
+"0Wt-26-hky.text" = "Nazov";
+
+/* Class = "UILabel"; text = "Autor"; ObjectID = "1ka-Ro-EGz"; */
+"1ka-Ro-EGz.text" = "Autor";
+
+/* Class = "UILabel"; text = "Informácie"; ObjectID = "2lu-pO-SEk"; */
+"2lu-pO-SEk.text" = "Informácie";
+
+/* Class = "UILabel"; text = "Priezvisko"; ObjectID = "3aF-ce-QyY"; */
+"3aF-ce-QyY.text" = "Priezvisko";
+
+/* Class = "UIButton"; normalTitle = "Registrácia"; ObjectID = "4U2-ba-ZGF"; */
+"4U2-ba-ZGF.normalTitle" = "Registrácia";
+
+/* Class = "UILabel"; text = "Jazyk:"; ObjectID = "50M-Pj-4rf"; */
+"50M-Pj-4rf.text" = "Jazyk:";
+
+/* Class = "UITextField"; text = "Vlož časť názvu"; ObjectID = "5Z0-fw-enL"; */
+"5Z0-fw-enL.text" = "Vlož časť názvu";
+
+/* Class = "UILabel"; text = "Autor"; ObjectID = "5j4-0X-NNc"; */
+"5j4-0X-NNc.text" = "Autor";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5zS-hp-XT5"; */
+"5zS-hp-XT5.text" = "Label";
+
+/* Class = "UILabel"; text = "Prezenčné"; ObjectID = "61f-lY-Svh"; */
+"61f-lY-Svh.text" = "Prezenčné";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6M3-mZ-iFV"; */
+"6M3-mZ-iFV.text" = "Label";
+
+/* Class = "UILabel"; text = "Meno"; ObjectID = "87O-6x-EAA"; */
+"87O-6x-EAA.text" = "Meno";
+
+/* Class = "UILabel"; text = "Nazov"; ObjectID = "8pk-eJ-P1Q"; */
+"8pk-eJ-P1Q.text" = "Nazov";
+
+/* Class = "UILabel"; text = "Hodnotenie"; ObjectID = "93P-tI-skZ"; */
+"93P-tI-skZ.text" = "Hodnotenie";
+
+/* Class = "UITabBarItem"; title = "Obľúbené"; ObjectID = "99N-KG-qVm"; */
+"99N-KG-qVm.title" = "Obľúbené";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9J6-E8-GZb"; */
+"9J6-E8-GZb.text" = "Label";
+
+/* Class = "UILabel"; text = "Informácie"; ObjectID = "A0E-gg-dxQ"; */
+"A0E-gg-dxQ.text" = "Informácie";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BPP-yk-Wwf"; */
+"BPP-yk-Wwf.text" = "Label";
+
+/* Class = "UILabel"; text = "Rok"; ObjectID = "CFp-7m-gGo"; */
+"CFp-7m-gGo.text" = "Rok";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "D0D-47-a4c"; */
+"D0D-47-a4c.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "D8G-SD-0oE"; */
+"D8G-SD-0oE.text" = "Label";
+
+/* Class = "UILabel"; text = "ISBN"; ObjectID = "DSC-rz-PY3"; */
+"DSC-rz-PY3.text" = "ISBN";
+
+/* Class = "UITabBarItem"; title = "Preukazy"; ObjectID = "FRw-n3-dbP"; */
+"FRw-n3-dbP.title" = "Preukazy";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "Fy3-oi-rTL"; */
+"Fy3-oi-rTL.title" = "Title";
+
+/* Class = "UILabel"; text = "Autor"; ObjectID = "GHv-ZZ-DHr"; */
+"GHv-ZZ-DHr.text" = "Autor";
+
+/* Class = "UITabBarItem"; title = "Účet"; ObjectID = "GMU-P0-iBL"; */
+"GMU-P0-iBL.title" = "Účet";
+
+/* Class = "UILabel"; text = "Priezvisko"; ObjectID = "KJU-DX-8v3"; */
+"KJU-DX-8v3.text" = "Priezvisko";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "N46-hG-5cS"; */
+"N46-hG-5cS.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Heslo"; ObjectID = "NSA-VI-HTg"; */
+"NSA-VI-HTg.text" = "Heslo";
+
+/* Class = "UIButton"; normalTitle = "Prihlásenie"; ObjectID = "OGh-xe-NnH"; */
+"OGh-xe-NnH.normalTitle" = "Prihlásenie";
+
+/* Class = "UILabel"; text = "Poznamky"; ObjectID = "Psc-Kb-jAT"; */
+"Psc-Kb-jAT.text" = "Poznamky";
+
+/* Class = "UILabel"; text = "Nazov kniznice"; ObjectID = "Q7p-90-FJv"; */
+"Q7p-90-FJv.text" = "Nazov kniznice";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QOI-VD-6rk"; */
+"QOI-VD-6rk.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Meno"; ObjectID = "RC3-hU-lGo"; */
+"RC3-hU-lGo.text" = "Meno";
+
+/* Class = "UILabel"; text = "Voľne"; ObjectID = "Sw5-ex-k0C"; */
+"Sw5-ex-k0C.text" = "Voľne";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ulg-cB-RkN"; */
+"Ulg-cB-RkN.text" = "Label";
+
+/* Class = "UILabel"; text = "Autor:"; ObjectID = "VWu-jv-cqY"; */
+"VWu-jv-cqY.text" = "Autor:";
+
+/* Class = "UINavigationItem"; title = "Výber knižnice"; ObjectID = "Vnb-zZ-6b0"; */
+"Vnb-zZ-6b0.title" = "Výber knižnice";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XQC-S6-8NA"; */
+"XQC-S6-8NA.text" = "Label";
+
+/* Class = "UITextField"; text = "Vlož meno autora"; ObjectID = "Zlk-Ha-NMm"; */
+"Zlk-Ha-NMm.text" = "Vlož meno autora";
+
+/* Class = "UILabel"; text = "ISBN:"; ObjectID = "ack-Ek-4cX"; */
+"ack-Ek-4cX.text" = "ISBN:";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "ba1-O1-1E0"; */
+"ba1-O1-1E0.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Dostupnost"; ObjectID = "bhn-LH-gSd"; */
+"bhn-LH-gSd.normalTitle" = "Dostupnost";
+
+/* Class = "UITabBarItem"; title = "Hľadať"; ObjectID = "bo2-by-ZaH"; */
+"bo2-by-ZaH.title" = "Hľadať";
+
+/* Class = "UILabel"; text = "O knihe"; ObjectID = "cBd-4T-tXe"; */
+"cBd-4T-tXe.text" = "O knihe";
+
+/* Class = "UILabel"; text = "Vypožičané"; ObjectID = "djn-cy-Clg"; */
+"djn-cy-Clg.text" = "Vypožičané";
+
+/* Class = "UILabel"; text = "Názov:"; ObjectID = "gGO-AR-Gji"; */
+"gGO-AR-Gji.text" = "Názov:";
+
+/* Class = "UILabel"; text = "Meno"; ObjectID = "gVY-tk-I2d"; */
+"gVY-tk-I2d.text" = "Meno";
+
+/* Class = "UILabel"; text = "Meno"; ObjectID = "gYb-ho-PoQ"; */
+"gYb-ho-PoQ.text" = "Meno";
+
+/* Class = "UILabel"; text = "Meno kniznice"; ObjectID = "gkv-WP-teE"; */
+"gkv-WP-teE.text" = "Meno kniznice";
+
+/* Class = "UILabel"; text = "Meno"; ObjectID = "i2y-qt-dI9"; */
+"i2y-qt-dI9.text" = "Meno";
+
+/* Class = "UIButton"; normalTitle = "Odhlasiť sa"; ObjectID = "iq8-Iq-maO"; */
+"iq8-Iq-maO.normalTitle" = "Odhlasiť sa";
+
+/* Class = "UILabel"; text = "Library id"; ObjectID = "jdA-bh-oAa"; */
+"jdA-bh-oAa.text" = "Library id";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jr3-gM-hsq"; */
+"jr3-gM-hsq.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Čiarový kód"; ObjectID = "kQy-Gf-VuZ"; */
+"kQy-Gf-VuZ.title" = "Čiarový kód";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "lkm-fI-8bD"; */
+"lkm-fI-8bD.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Registruj"; ObjectID = "mXr-Nx-edy"; */
+"mXr-Nx-edy.normalTitle" = "Registruj";
+
+/* Class = "UILabel"; text = "Meno"; ObjectID = "rT5-m3-ZRW"; */
+"rT5-m3-ZRW.text" = "Meno";
+
+/* Class = "UILabel"; text = "Názov"; ObjectID = "rr3-On-Ani"; */
+"rr3-On-Ani.text" = "Názov";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "sih-Ld-6Pp"; */
+"sih-Ld-6Pp.text" = "0";
+
+/* Class = "UINavigationItem"; title = "Vyhľadávanie"; ObjectID = "tBF-Hk-XJl"; */
+"tBF-Hk-XJl.title" = "Vyhľadávanie";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tJ2-CU-RCu"; */
+"tJ2-CU-RCu.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "te5-jj-d8Q"; */
+"te5-jj-d8Q.title" = "Title";
+
+/* Class = "UITextField"; text = "Zasaj alebo naskenuj ISBN"; ObjectID = "uCf-HI-Lmq"; */
+"uCf-HI-Lmq.text" = "Zasaj alebo naskenuj ISBN";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uqR-97-bvq"; */
+"uqR-97-bvq.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vCW-uJ-pLH"; */
+"vCW-uJ-pLH.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xTm-cr-Dgm"; */
+"xTm-cr-Dgm.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "y5r-9h-KGp"; */
+"y5r-9h-KGp.title" = "Title";
+
+/* Class = "UINavigationItem"; title = "Výber mesta"; ObjectID = "yIC-VE-XWV"; */
+"yIC-VE-XWV.title" = "Výber mesta";
+
+/* Class = "UILabel"; text = "ISBN"; ObjectID = "yJj-4v-RCp"; */
+"yJj-4v-RCp.text" = "ISBN";
+
+/* Class = "UIButton"; normalTitle = "Vyhľadaj knihy"; ObjectID = "zHq-li-Yxg"; */
+"zHq-li-Yxg.normalTitle" = "Vyhľadaj knihy";
+
+/* Class = "UILabel"; text = "Opis text"; ObjectID = "zb7-Dt-An1"; */
+"zb7-Dt-An1.text" = "Opis text";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "zm2-q1-5qc"; */
+"zm2-q1-5qc.text" = "Email";

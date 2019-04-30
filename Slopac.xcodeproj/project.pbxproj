@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D01C7895220A118C0077A71C /* ShowFavoriteBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C7894220A118C0077A71C /* ShowFavoriteBookViewController.swift */; };
+		D01C7897220A4D2F0077A71C /* ShowLibraryCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C7896220A4D2F0077A71C /* ShowLibraryCardViewController.swift */; };
+		D01F829321C3CB2200AE0E49 /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F829221C3CB2200AE0E49 /* BarcodeScannerViewController.swift */; };
+		D03A74F82197ADD700FE2A24 /* SearchBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A74F72197ADD700FE2A24 /* SearchBookViewController.swift */; };
+		D03A74FC2197CAF600FE2A24 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A74FB2197CAF600FE2A24 /* BookViewController.swift */; };
+		D059D1D12220C67500CE0526 /* SelectLibraryForSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059D1D02220C67500CE0526 /* SelectLibraryForSearchTableViewCell.swift */; };
+		D059D1D32220C6C300CE0526 /* SelectLibraryForSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059D1D22220C6C300CE0526 /* SelectLibraryForSearchViewController.swift */; };
+		D07229AB21CBC29B00C89F66 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07229AA21CBC29B00C89F66 /* Constants.swift */; };
+		D07229AD21CBC4F300C89F66 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07229AC21CBC4F300C89F66 /* LoginViewController.swift */; };
+		D0815B0621CC2E0600676266 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0815B0821CC2E0600676266 /* Localizable.strings */; };
+		D0815B0F21CD06C300676266 /* AvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0815B0E21CD06C300676266 /* AvailabilityViewController.swift */; };
+		D0815B1121CD76C300676266 /* ExtensionFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0815B1021CD76C300676266 /* ExtensionFunction.swift */; };
+		D0815B1321CE439500676266 /* LanguageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0815B1221CE439500676266 /* LanguageData.swift */; };
+		D0815B1621CF2BE000676266 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0815B1521CF2BE000676266 /* MainTabBarController.swift */; };
+		D082FDCB2241769B009A55C5 /* LoginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082FDCA2241769B009A55C5 /* LoginNavigationController.swift */; };
+		D08A952B2197410300B20000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08A952A2197410300B20000 /* AppDelegate.swift */; };
+		D08A95322197410300B20000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08A95302197410300B20000 /* Main.storyboard */; };
+		D08A95342197410500B20000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08A95332197410500B20000 /* Assets.xcassets */; };
+		D08A95372197410500B20000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08A95352197410500B20000 /* LaunchScreen.storyboard */; };
+		D08A95412197558900B20000 /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08A95402197558900B20000 /* BookData.swift */; };
+		D08A9543219756EF00B20000 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08A9542219756EF00B20000 /* BookTableViewCell.swift */; };
+		D08A95452197574800B20000 /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08A95442197574800B20000 /* BookTableViewController.swift */; };
+		D0A2AEDD225C016D00CFA394 /* LibraryMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A2AEDC225C016D00CFA394 /* LibraryMapViewController.swift */; };
+		D0AF316D21C4F2700062E6AF /* LibraryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF316C21C4F2700062E6AF /* LibraryData.swift */; };
+		D0AF317621C517240062E6AF /* SaveBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF317521C517240062E6AF /* SaveBookTableViewCell.swift */; };
+		D0AF317821C5173F0062E6AF /* SaveBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF317721C5173F0062E6AF /* SaveBookTableViewController.swift */; };
+		D0AF317C21C56A600062E6AF /* EditBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF317B21C56A600062E6AF /* EditBookViewController.swift */; };
+		D0AF318621C584F00062E6AF /* LibraryCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF318521C584F00062E6AF /* LibraryCardTableViewController.swift */; };
+		D0AF318821C585240062E6AF /* LibraryCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF318721C585240062E6AF /* LibraryCardTableViewCell.swift */; };
+		D0AF318A21C58BB50062E6AF /* EditLibraryCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF318921C58BB50062E6AF /* EditLibraryCardViewController.swift */; };
+		D0C10A5721E3AA4400996AD9 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0C10A5521E3AA4400996AD9 /* Database.xcdatamodeld */; };
+		D0C10A5921E49FA000996AD9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C10A5821E49FA000996AD9 /* CoreData.framework */; };
+		D0C10A5B21E4A64000996AD9 /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C10A5A21E4A64000996AD9 /* DatabaseHandler.swift */; };
+		D0C10A5D21E4FA9100996AD9 /* UpdateDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C10A5C21E4FA9100996AD9 /* UpdateDataViewController.swift */; };
+		D0E064EB21C6A965005801DD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E064EA21C6A965005801DD /* MapViewController.swift */; };
+		D0E064EE21C6B2E2005801DD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E064ED21C6B2E1005801DD /* MapKit.framework */; };
+		D0E6F0B021CFDEAE0053CC87 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6F0AF21CFDEAE0053CC87 /* RegistrationViewController.swift */; };
+		D0E6F0B221D05C6A0053CC87 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6F0B121D05C6A0053CC87 /* UserDetailViewController.swift */; };
+		D0E9FDF4222C24AA002935F7 /* CheckBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9FDF3222C24AA002935F7 /* CheckBookTableViewCell.swift */; };
+		D0E9FDF7222C27BA002935F7 /* ChackBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9FDF6222C27BA002935F7 /* ChackBookTableViewController.swift */; };
+		D0E9FDF9222C27D8002935F7 /* CheckBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9FDF8222C27D8002935F7 /* CheckBookViewController.swift */; };
+		D0EFD47E222AD1D900009906 /* AvailableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFD47D222AD1D900009906 /* AvailableTableViewCell.swift */; };
+		D0EFD480222ADEB600009906 /* BookInformationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EFD47F222ADEB600009906 /* BookInformationData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0196EFD2239A072000B4654 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		D0196EFF2239A07F000B4654 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = sk; path = sk.lproj/Info.plist; sourceTree = "<group>"; };
+		D0196F002239A086000B4654 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = cs; path = cs.lproj/Info.plist; sourceTree = "<group>"; };
+		D0196F012239A094000B4654 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/Info.plist; sourceTree = "<group>"; };
+		D0196F022239A097000B4654 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = hu; path = hu.lproj/Info.plist; sourceTree = "<group>"; };
+		D0196F042239A2EF000B4654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		D01C7894220A118C0077A71C /* ShowFavoriteBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowFavoriteBookViewController.swift; sourceTree = "<group>"; };
+		D01C7896220A4D2F0077A71C /* ShowLibraryCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowLibraryCardViewController.swift; sourceTree = "<group>"; };
+		D01F829221C3CB2200AE0E49 /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerViewController.swift; sourceTree = "<group>"; };
+		D03A74F72197ADD700FE2A24 /* SearchBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBookViewController.swift; sourceTree = "<group>"; };
+		D03A74FB2197CAF600FE2A24 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		D059D1D02220C67500CE0526 /* SelectLibraryForSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLibraryForSearchTableViewCell.swift; sourceTree = "<group>"; };
+		D059D1D22220C6C300CE0526 /* SelectLibraryForSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLibraryForSearchViewController.swift; sourceTree = "<group>"; };
+		D07229AA21CBC29B00C89F66 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D07229AC21CBC4F300C89F66 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D0815B0721CC2E0600676266 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0815B0921CC2E0900676266 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0815B0A21CC2E1400676266 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0815B0B21CC2E1500676266 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0815B0E21CD06C300676266 /* AvailabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityViewController.swift; sourceTree = "<group>"; };
+		D0815B1021CD76C300676266 /* ExtensionFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFunction.swift; sourceTree = "<group>"; };
+		D0815B1221CE439500676266 /* LanguageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageData.swift; sourceTree = "<group>"; };
+		D0815B1521CF2BE000676266 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		D082FDCA2241769B009A55C5 /* LoginNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigationController.swift; sourceTree = "<group>"; };
+		D08A95272197410300B20000 /* Slopac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slopac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08A952A2197410300B20000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D08A95312197410300B20000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D08A95332197410500B20000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D08A95362197410500B20000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D08A95402197558900B20000 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookData.swift; path = Slopac/Data/BookData.swift; sourceTree = SOURCE_ROOT; };
+		D08A9542219756EF00B20000 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		D08A95442197574800B20000 /* BookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewController.swift; sourceTree = "<group>"; };
+		D0A2AEDC225C016D00CFA394 /* LibraryMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryMapViewController.swift; sourceTree = "<group>"; };
+		D0AD79BB2238E57400B38B9C /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Main.strings; sourceTree = "<group>"; };
+		D0AD79BC2238E57600B38B9C /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D0AD79BD2238E57800B38B9C /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0AF316C21C4F2700062E6AF /* LibraryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LibraryData.swift; path = Slopac/Data/LibraryData.swift; sourceTree = SOURCE_ROOT; };
+		D0AF317521C517240062E6AF /* SaveBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveBookTableViewCell.swift; sourceTree = "<group>"; };
+		D0AF317721C5173F0062E6AF /* SaveBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveBookTableViewController.swift; sourceTree = "<group>"; };
+		D0AF317B21C56A600062E6AF /* EditBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookViewController.swift; sourceTree = "<group>"; };
+		D0AF318521C584F00062E6AF /* LibraryCardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCardTableViewController.swift; sourceTree = "<group>"; };
+		D0AF318721C585240062E6AF /* LibraryCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCardTableViewCell.swift; sourceTree = "<group>"; };
+		D0AF318921C58BB50062E6AF /* EditLibraryCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLibraryCardViewController.swift; sourceTree = "<group>"; };
+		D0C10A5621E3AA4400996AD9 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		D0C10A5821E49FA000996AD9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D0C10A5A21E4A64000996AD9 /* DatabaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		D0C10A5C21E4FA9100996AD9 /* UpdateDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDataViewController.swift; sourceTree = "<group>"; };
+		D0E064EA21C6A965005801DD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D0E064ED21C6B2E1005801DD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D0E1327421CBDC3A002D6200 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Main.strings; sourceTree = "<group>"; };
+		D0E1327521CBDC3A002D6200 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D0E1327621CBDC53002D6200 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Main.strings; sourceTree = "<group>"; };
+		D0E1327721CBDC53002D6200 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D0E1327821CBDC60002D6200 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		D0E1327921CBDC61002D6200 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D0E6F0AF21CFDEAE0053CC87 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		D0E6F0B121D05C6A0053CC87 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		D0E9FDF3222C24AA002935F7 /* CheckBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBookTableViewCell.swift; sourceTree = "<group>"; };
+		D0E9FDF6222C27BA002935F7 /* ChackBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChackBookTableViewController.swift; sourceTree = "<group>"; };
+		D0E9FDF8222C27D8002935F7 /* CheckBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBookViewController.swift; sourceTree = "<group>"; };
+		D0EFD47D222AD1D900009906 /* AvailableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableTableViewCell.swift; sourceTree = "<group>"; };
+		D0EFD47F222ADEB600009906 /* BookInformationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookInformationData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D08A95242197410300B20000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C10A5921E49FA000996AD9 /* CoreData.framework in Frameworks */,
+				D0E064EE21C6B2E2005801DD /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D07229A921CBC25000C89F66 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D07229AA21CBC29B00C89F66 /* Constants.swift */,
+				D0815B1021CD76C300676266 /* ExtensionFunction.swift */,
+				D01F829221C3CB2200AE0E49 /* BarcodeScannerViewController.swift */,
+				D0C10A5C21E4FA9100996AD9 /* UpdateDataViewController.swift */,
+				D0815B1521CF2BE000676266 /* MainTabBarController.swift */,
+				D082FDCA2241769B009A55C5 /* LoginNavigationController.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D0815B1421CEDCB000676266 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF317521C517240062E6AF /* SaveBookTableViewCell.swift */,
+				D0AF318721C585240062E6AF /* LibraryCardTableViewCell.swift */,
+				D08A9542219756EF00B20000 /* BookTableViewCell.swift */,
+				D059D1D02220C67500CE0526 /* SelectLibraryForSearchTableViewCell.swift */,
+				D0EFD47D222AD1D900009906 /* AvailableTableViewCell.swift */,
+				D0E9FDF3222C24AA002935F7 /* CheckBookTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		D08A951E2197410300B20000 = {
+			isa = PBXGroup;
+			children = (
+				D08A95292197410300B20000 /* Slopac */,
+				D08A95282197410300B20000 /* Products */,
+				D0E064EC21C6B2E1005801DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D08A95282197410300B20000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D08A95272197410300B20000 /* Slopac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D08A95292197410300B20000 /* Slopac */ = {
+			isa = PBXGroup;
+			children = (
+				D0E9FDF5222C24D7002935F7 /* CheckBook */,
+				D0C10A5421E3A82900996AD9 /* Database */,
+				D0815B1421CEDCB000676266 /* TableViewCell */,
+				D07229A921CBC25000C89F66 /* Utils */,
+				D0AF318421C583630062E6AF /* Favorite */,
+				D0AF318221C582F70062E6AF /* LibraryCard */,
+				D0AF318121C582EB0062E6AF /* User */,
+				D0AF318021C582A70062E6AF /* Data */,
+				D0AF317F21C5816F0062E6AF /* Search */,
+				D08A952A2197410300B20000 /* AppDelegate.swift */,
+				D08A95302197410300B20000 /* Main.storyboard */,
+				D08A95332197410500B20000 /* Assets.xcassets */,
+				D08A95352197410500B20000 /* LaunchScreen.storyboard */,
+				D0196EFE2239A072000B4654 /* Info.plist */,
+				D0815B0821CC2E0600676266 /* Localizable.strings */,
+			);
+			path = Slopac;
+			sourceTree = "<group>";
+		};
+		D0AF317F21C5816F0062E6AF /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D03A74F72197ADD700FE2A24 /* SearchBookViewController.swift */,
+				D08A95442197574800B20000 /* BookTableViewController.swift */,
+				D03A74FB2197CAF600FE2A24 /* BookViewController.swift */,
+				D0E064EA21C6A965005801DD /* MapViewController.swift */,
+				D0815B0E21CD06C300676266 /* AvailabilityViewController.swift */,
+				D059D1D22220C6C300CE0526 /* SelectLibraryForSearchViewController.swift */,
+				D0A2AEDC225C016D00CFA394 /* LibraryMapViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D0AF318021C582A70062E6AF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF316C21C4F2700062E6AF /* LibraryData.swift */,
+				D08A95402197558900B20000 /* BookData.swift */,
+				D0815B1221CE439500676266 /* LanguageData.swift */,
+				D0EFD47F222ADEB600009906 /* BookInformationData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D0AF318121C582EB0062E6AF /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D07229AC21CBC4F300C89F66 /* LoginViewController.swift */,
+				D0E6F0AF21CFDEAE0053CC87 /* RegistrationViewController.swift */,
+				D0E6F0B121D05C6A0053CC87 /* UserDetailViewController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D0AF318221C582F70062E6AF /* LibraryCard */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF318521C584F00062E6AF /* LibraryCardTableViewController.swift */,
+				D0AF318921C58BB50062E6AF /* EditLibraryCardViewController.swift */,
+				D01C7896220A4D2F0077A71C /* ShowLibraryCardViewController.swift */,
+			);
+			path = LibraryCard;
+			sourceTree = "<group>";
+		};
+		D0AF318421C583630062E6AF /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				D0AF317B21C56A600062E6AF /* EditBookViewController.swift */,
+				D0AF317721C5173F0062E6AF /* SaveBookTableViewController.swift */,
+				D01C7894220A118C0077A71C /* ShowFavoriteBookViewController.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		D0C10A5421E3A82900996AD9 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				D0C10A5521E3AA4400996AD9 /* Database.xcdatamodeld */,
+				D0C10A5A21E4A64000996AD9 /* DatabaseHandler.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		D0E064EC21C6B2E1005801DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C10A5821E49FA000996AD9 /* CoreData.framework */,
+				D0E064ED21C6B2E1005801DD /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0E9FDF5222C24D7002935F7 /* CheckBook */ = {
+			isa = PBXGroup;
+			children = (
+				D0E9FDF6222C27BA002935F7 /* ChackBookTableViewController.swift */,
+				D0E9FDF8222C27D8002935F7 /* CheckBookViewController.swift */,
+			);
+			path = CheckBook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D08A95262197410300B20000 /* Slopac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08A953B2197410500B20000 /* Build configuration list for PBXNativeTarget "Slopac" */;
+			buildPhases = (
+				D08A95232197410300B20000 /* Sources */,
+				D08A95242197410300B20000 /* Frameworks */,
+				D08A95252197410300B20000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slopac;
+			productName = Slopac;
+			productReference = D08A95272197410300B20000 /* Slopac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D08A951F2197410300B20000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					ahoj,
+				);
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jozef Varga";
+				TargetAttributes = {
+					D08A95262197410300B20000 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D08A95222197410300B20000 /* Build configuration list for PBXProject "Slopac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				sk,
+				cs,
+				de,
+				hu,
+			);
+			mainGroup = D08A951E2197410300B20000;
+			productRefGroup = D08A95282197410300B20000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D08A95262197410300B20000 /* Slopac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D08A95252197410300B20000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08A95372197410500B20000 /* LaunchScreen.storyboard in Resources */,
+				D0815B0621CC2E0600676266 /* Localizable.strings in Resources */,
+				D08A95342197410500B20000 /* Assets.xcassets in Resources */,
+				D08A95322197410300B20000 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D08A95232197410300B20000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E6F0B221D05C6A0053CC87 /* UserDetailViewController.swift in Sources */,
+				D07229AD21CBC4F300C89F66 /* LoginViewController.swift in Sources */,
+				D03A74F82197ADD700FE2A24 /* SearchBookViewController.swift in Sources */,
+				D0E6F0B021CFDEAE0053CC87 /* RegistrationViewController.swift in Sources */,
+				D0AF318821C585240062E6AF /* LibraryCardTableViewCell.swift in Sources */,
+				D0A2AEDD225C016D00CFA394 /* LibraryMapViewController.swift in Sources */,
+				D0AF318A21C58BB50062E6AF /* EditLibraryCardViewController.swift in Sources */,
+				D0AF317621C517240062E6AF /* SaveBookTableViewCell.swift in Sources */,
+				D0EFD47E222AD1D900009906 /* AvailableTableViewCell.swift in Sources */,
+				D0AF317821C5173F0062E6AF /* SaveBookTableViewController.swift in Sources */,
+				D01C7897220A4D2F0077A71C /* ShowLibraryCardViewController.swift in Sources */,
+				D0815B1321CE439500676266 /* LanguageData.swift in Sources */,
+				D07229AB21CBC29B00C89F66 /* Constants.swift in Sources */,
+				D0815B1621CF2BE000676266 /* MainTabBarController.swift in Sources */,
+				D059D1D12220C67500CE0526 /* SelectLibraryForSearchTableViewCell.swift in Sources */,
+				D0AF317C21C56A600062E6AF /* EditBookViewController.swift in Sources */,
+				D059D1D32220C6C300CE0526 /* SelectLibraryForSearchViewController.swift in Sources */,
+				D0C10A5B21E4A64000996AD9 /* DatabaseHandler.swift in Sources */,
+				D0E064EB21C6A965005801DD /* MapViewController.swift in Sources */,
+				D01F829321C3CB2200AE0E49 /* BarcodeScannerViewController.swift in Sources */,
+				D0C10A5D21E4FA9100996AD9 /* UpdateDataViewController.swift in Sources */,
+				D0E9FDF7222C27BA002935F7 /* ChackBookTableViewController.swift in Sources */,
+				D08A9543219756EF00B20000 /* BookTableViewCell.swift in Sources */,
+				D03A74FC2197CAF600FE2A24 /* BookViewController.swift in Sources */,
+				D0C10A5721E3AA4400996AD9 /* Database.xcdatamodeld in Sources */,
+				D08A952B2197410300B20000 /* AppDelegate.swift in Sources */,
+				D0815B1121CD76C300676266 /* ExtensionFunction.swift in Sources */,
+				D01C7895220A118C0077A71C /* ShowFavoriteBookViewController.swift in Sources */,
+				D082FDCB2241769B009A55C5 /* LoginNavigationController.swift in Sources */,
+				D08A95452197574800B20000 /* BookTableViewController.swift in Sources */,
+				D0AF318621C584F00062E6AF /* LibraryCardTableViewController.swift in Sources */,
+				D0E9FDF4222C24AA002935F7 /* CheckBookTableViewCell.swift in Sources */,
+				D0815B0F21CD06C300676266 /* AvailabilityViewController.swift in Sources */,
+				D08A95412197558900B20000 /* BookData.swift in Sources */,
+				D0AF316D21C4F2700062E6AF /* LibraryData.swift in Sources */,
+				D0EFD480222ADEB600009906 /* BookInformationData.swift in Sources */,
+				D0E9FDF9222C27D8002935F7 /* CheckBookViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0196EFE2239A072000B4654 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0196EFD2239A072000B4654 /* en */,
+				D0196EFF2239A07F000B4654 /* sk */,
+				D0196F002239A086000B4654 /* cs */,
+				D0196F012239A094000B4654 /* de */,
+				D0196F022239A097000B4654 /* hu */,
+				D0196F042239A2EF000B4654 /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		D0815B0821CC2E0600676266 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0815B0721CC2E0600676266 /* en */,
+				D0815B0921CC2E0900676266 /* sk */,
+				D0815B0A21CC2E1400676266 /* cs */,
+				D0815B0B21CC2E1500676266 /* de */,
+				D0AD79BD2238E57800B38B9C /* hu */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D08A95302197410300B20000 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D08A95312197410300B20000 /* Base */,
+				D0E1327421CBDC3A002D6200 /* sk */,
+				D0E1327621CBDC53002D6200 /* cs */,
+				D0E1327821CBDC60002D6200 /* de */,
+				D0AD79BB2238E57400B38B9C /* hu */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D08A95352197410500B20000 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D08A95362197410500B20000 /* Base */,
+				D0E1327521CBDC3A002D6200 /* sk */,
+				D0E1327721CBDC53002D6200 /* cs */,
+				D0E1327921CBDC61002D6200 /* de */,
+				D0AD79BC2238E57600B38B9C /* hu */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D08A95392197410500B20000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D08A953A2197410500B20000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D08A953C2197410500B20000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M5XFGWK36;
+				INFOPLIST_FILE = Slopac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Slopac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D08A953D2197410500B20000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M5XFGWK36;
+				INFOPLIST_FILE = Slopac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Slopac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D08A95222197410300B20000 /* Build configuration list for PBXProject "Slopac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08A95392197410500B20000 /* Debug */,
+				D08A953A2197410500B20000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08A953B2197410500B20000 /* Build configuration list for PBXNativeTarget "Slopac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08A953C2197410500B20000 /* Debug */,
+				D08A953D2197410500B20000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0C10A5521E3AA4400996AD9 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0C10A5621E3AA4400996AD9 /* Database.xcdatamodel */,
+			);
+			currentVersion = D0C10A5621E3AA4400996AD9 /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D08A951F2197410300B20000 /* Project object */;
+}
